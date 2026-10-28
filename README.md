@@ -1,35 +1,27 @@
 # Mira Islamic Shop
 
-Simple Next.js shop for **Mira Islamic Gifts** — customers browse products and cart; the owner manages stock from an admin panel.
+Next.js shop for **Mira Islamic Gifts** — public browse/cart + admin stock management.
 
-## Features
+**Stack:** Vercel (host) · Neon (products DB) · Vercel Blob (product photos)
 
-- Public shop: browse items with colors, prices, and optional sizes
-- Cart with quantity controls (stored in the browser)
-- Order via Telegram / WhatsApp buttons (Coming soon for now)
-- Admin login to add, edit, and delete products (photo, name, price, colors, size)
+## Local setup
 
-## Getting started
+1. Copy env and fill values:
 
-```bash
-npm install
-npm run dev
-```
+   ```bash
+   cp .env.example .env.local
+   ```
 
-Open [http://localhost:3000](http://localhost:3000).
+2. Install and run:
 
-## Admin login
+   ```bash
+   npm install
+   npm run dev
+   ```
 
-Credentials are set in `.env.local` (see `.env.example`):
+3. Open [http://localhost:3000](http://localhost:3000).
 
-- **Email:** `semiramohammed988@gmail.com`
-- **Password:** `miraadmin123` (change this before sharing the site)
+## Admin
 
-Admin page: [/admin/login](http://localhost:3000/admin/login)
-
-## Contact shown on the site
-
-- Bole Infront of Dembel
-- Phone: +251 956 265 832
-- Telegram: @mirsassop1
-- Instagram & TikTok: Mira islamic gift
+- URL: `/admin/login`
+- Email / password from `ADMIN_EMAIL` and `ADMIN_PASSWORD` in `.env.local`
