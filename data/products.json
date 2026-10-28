@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Prayer mat",
+    "price": 1000,
+    "colors": [
+      "green",
+      "gold",
+      "black"
+    ],
+    "size": "Medium",
+    "image": "/uploads/1793173445090-42ad9674-7728-4eca-983b-1fb8b2e00d2b.jpg",
+    "id": "8662d703-4964-45e0-b316-4a831b7c9f63",
+    "createdAt": "2026-10-28T07:44:05.099Z"
+  }
+]
